@@ -199,9 +199,8 @@ The application is optimized for
 
 **Mayank Gupta**
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: https://github.com/Manny2706
 
-LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
 
 ---
 
