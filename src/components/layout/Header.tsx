@@ -14,14 +14,6 @@ useEffect(() => {
   const handleScroll = () => {
     setScrolled(window.scrollY > 80);
   };
-const navLinkClass = ({ isActive }: { isActive: boolean }) =>
-  `transition ${
-    isActive
-      ? "font-semibold text-blue-500"
-      : scrolled
-      ? "text-slate-700 hover:text-blue-600"
-      : "text-white hover:text-blue-300"
-  }`;
   window.addEventListener("scroll", handleScroll);
 
   return () => window.removeEventListener("scroll", handleScroll);
