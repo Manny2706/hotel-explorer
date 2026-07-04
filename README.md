@@ -15,17 +15,6 @@ Search, filter, sort and explore hotels through a clean, responsive, and premium
 
 </div>
 
----
-
-## ✨ Preview
-
-> Add screenshots after deployment.
-
-| Home | Hotel Details |
-|------|---------------|
-| ![](./screenshots/home.png) | ![](./screenshots/details.png) |
-
----
 
 # 🚀 Features
 
