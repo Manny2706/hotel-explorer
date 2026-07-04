@@ -29,9 +29,8 @@ export const getHotels = async (
 
   return data;
 };
-
 export const getHotelById = async (id: number): Promise<Hotel> => {
-  const { data } = await api.get<Hotel>(`/hotels/${id}/`);
+  const { data } = await api.get<ApiResponse<Hotel>>(`/hotels/${id}/`);
 
-  return data;
+  return data.data;
 };
